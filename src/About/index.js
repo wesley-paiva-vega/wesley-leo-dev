@@ -15,7 +15,7 @@ const About = () => {
     return (
         <>
             <Container>
-                <Header>Welcome To my About Page
+                <Header>Bem vindo a miha página
                 <Button onClick={() => handleClickRouter("")}>Go to my Home Page</Button>
                 </Header>
             </Container>
