@@ -5,6 +5,7 @@ import Portifolio from './Portifolio'
 import Contato from './Contato'
 import StateReact from './StateReact'
 import SetTimeOutExemple from './setTimeExemple'
+import ReactSlider from './Slider'
 
 
 export default function Routes() {
@@ -18,6 +19,8 @@ export default function Routes() {
                 <Route component={Contato} exact path="/contato" />
                 <Route component={StateReact} exact path="/state-react" />
                 <Route component={SetTimeOutExemple} exact path="/set-time-out" />
+                <Route component={ReactSlider} exact path="/react-slider" />
+                
             </Switch>
         </Router>
     )

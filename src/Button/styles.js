@@ -5,7 +5,7 @@ export const StyledButton = styled.button`
     height: 70px;
     border: none;
     background-color: #046e8f;
-    transition: ease 0.5s;
+    transition: ease-in-out 1s;
     color: #FFF;
     margin: 0 5px;
 
